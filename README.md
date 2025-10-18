@@ -39,7 +39,7 @@ import matplotlib.pyplot as plt
 img = np.zeros((100, 600, 3), dtype='uint8')  # Black background (RGB: 0, 0, 0)
 font = cv2.FONT_HERSHEY_COMPLEX
 text_color = (255, 255, 255)  # White text (RGB: 255, 255, 255)
-cv2.putText(img, 'Ayisha Rinsi K', (60, 70), font, 2, text_color, 5, cv2.LINE_AA)
+cv2.putText(img, 'SARANYA S', (60, 70), font, 2, text_color, 5, cv2.LINE_AA)
 plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
 plt.axis('off')
 plt.show()
